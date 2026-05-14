@@ -1,0 +1,17 @@
+{
+  "name": "volume-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for monitoring volume spikes on Binance",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.15.0",
+    "axios": "^1.6.2",
+    "canvas": "^2.11.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
